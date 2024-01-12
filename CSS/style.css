@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Raleway:wght@100;500;600;800&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    background-color: whitesmoke;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+
+.header {
+    /* height: 400px;
+    background-image: url("../Images/coffee-bgnd.jpeg");
+    background-position: center;
+    border-top: 1px solid transparent;
+
+                or
+                ||
+                ||
+              \    /
+               \  / 
+                \/ */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    background-image: url("../Images/coffee-bgnd.jpeg");
+    background-position: center;
+    border-top: 1px solid transparent;
+}
+
+                    /* previous homework */
+h1 {
+    /* font-size: 100px;
+    font-family:'Covered By Your Grace', cursive;
+    color: rgba(3, 150, 100, 0.75);
+    text-align: center;
+    margin: 132px auto;
+    
+                or
+                ||
+                ||
+              \    /
+               \  / 
+                \/ */
+
+    font-size: 100px;
+    font-family: 'Covered By Your Grace', cursive;
+    color: rgba(3, 150, 100, 0.75);
+    text-align: center;
+}
+
+                    /* end previous homework */
+
+.main > ul {
+    list-style: none;
+    padding: 0;
+}
+
+.main li {
+    margin: 10px 0;
+    border-bottom: 1px solid #e4bb97;
+    padding-bottom: 60px;
+}
+.main li > h2 {
+    font-weight: 800;
+    font-size: 28px;background-color: #aa8eb5;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.main li > p {
+    color: #444;
+    font-size: 20px;
+    text-align: justify;
+    text-indent: 32px;
+    line-height: 1.5;
+    padding: 0 10px;
+}
+.main li > a {
+    color: blue;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-left: 32px;
+    text-decoration: none;
+    letter-spacing: 2px;
+
+}
+
+                        /* Сurrent Home_Work */
+
+.main {
+    position: relative;
+}
+
+.brazil, .colombia, .india, .ethiopia, .costa_rica, .kenya {
+    width: 49%;
+    position: absolute;
+}
+
+.colombia {
+    top: 0;
+    right: 0;
+}
+
+.india {
+    top: 393px;
+}
+
+.ethiopia {
+    top: 393px;
+    right: 0;
+}
+
+.costa_rica {
+    top: 785px;
+}
+
+.kenya {
+    top: 785px;
+    right: 0;
+}
+
